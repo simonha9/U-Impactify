@@ -1,0 +1,52 @@
+.quiz-component {
+  width: 50vw;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  height: min-content;
+  border-style: dashed;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  #question-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .question-component-index-and-question {
+      padding-left: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .question-editable {
+        min-width: 400px;
+        height: 80px;
+        min-height: 40px;
+        margin-left: 10px;
+      }
+    }
+    .remove-question {
+      cursor: pointer;
+    }
+  }
+
+  .question-component-add {
+    max-width: fit-content;
+  }
+  .question-component-choice {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    .radio-and-choice {
+      display: flex;
+      flex-direction: row;
+      .choices-editable {
+        min-width: 500px;
+        height: 40px;
+        min-height: 40px;
+      }
+    }
+    .remove-choice {
+      cursor: pointer;
+    }
+  }
+}

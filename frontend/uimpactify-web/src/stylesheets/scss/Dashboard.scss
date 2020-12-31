@@ -1,0 +1,119 @@
+#content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  .col-1,
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: fit-content;
+    min-height: 90vh;
+  }
+  .row-1-1,
+  .row-1-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border-style: double;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .btn {
+    background-color: #a64dff;
+    border-color: white;
+  }
+
+  .title-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #upcoming-events {
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: 10px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .dash-component {
+    max-width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+
+    #suggested-events,
+    #workshops,
+    #courses {
+      display: flex;
+      flex-direction: column;
+      .item-row {
+        display: flex;
+        flex-direction: row;
+        .col {
+          padding: 0%;
+          margin: 3px;
+          .event-item {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.15);
+            background-color: whitesmoke;
+            border-radius: 15px;
+            width: 120px;
+            padding: 0%;
+            margin: 0%;
+            .event-image {
+              height: 50px;
+              width: 50px;
+            }
+            .event-title {
+              text-align: center;
+              width: 80px;
+            }
+            .event-time {
+              text-align: center;
+            }
+            &:hover {
+              cursor: pointer;
+              background-color: #d6cccb;
+            }
+            &.add-new-courses {
+              background: transparent;
+              border-style: dashed;
+              .event-image {
+                height: 20px;
+                width: 20px;
+              }
+            }
+            &:hover {
+              cursor: pointer;
+              background-color: #d6cccb;
+            }
+          }
+        }
+      }
+    }
+    &.news {
+      box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.15);
+      background-color: whitesmoke;
+      border-radius: 15px;
+      .container {
+        display: flex;
+        flex-direction: column;
+        .news-display {
+          height: 100px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountTypeCol {
+    text-align: center;
+}
+
+.accountTypeColSelected {
+    text-align: center;
+    background-color: rgb(240, 240, 255);
+    border-radius: 10px;
+}
+
+.accountTypeImg {
+    width: 100px;
+    height: 100px;
+}
+
+#checkMarkImg {
+    width: 200px;
+    height: 200px;
+}
+
+.error {
+    color: red;
+}
+
+#signup-card {
+    min-width: 500px;
+}

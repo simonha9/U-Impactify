@@ -1,0 +1,96 @@
+.courses-page-container {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.courses-page-header {
+    color: rgb(172, 119, 206);
+    width: 80vw;
+}
+
+.courses-page-subheader {
+    color: rgb(79, 79, 79);
+    display: inline;
+    margin-right: 10px;
+}
+
+.courses-button {
+    margin-bottom: 10px;
+}
+
+.courses-list {
+    gap: 1rem;
+}
+
+.courses-page-grid {
+    display: grid;
+    grid-auto-columns: minmax(auto, 12%) minmax(auto, 88%);
+    grid-auto-rows: minmax(75vh, auto);
+    grid-template-areas: "cSidebar cContent";
+}
+
+
+.courses-page-sidebar {
+    grid-area: cSidebar;
+    border-right: groove;
+    border-width: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.courses-page-sidebar-tab {
+    display: block;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+}
+
+.active-tab {
+    background-color: rgb(224, 208, 243);
+}
+
+.courses-page-content {
+    grid-area: cContent;
+    padding-left: 1rem;
+    border-left: groove;
+    border-width: 1px;
+}
+
+.course-formGroup {
+    width: 85%;
+}
+
+.course-formButton {
+    float: right;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.courses-listing-available {
+    width: 80%
+}
+
+.courses-listing-button {
+    background-color: rgb(221, 203, 233);
+    color: rgb(68,68,68);
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: double;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.c-expanded, .courses-listing-button:hover {
+    background-color: rgb(224, 183, 243);
+}
+
+.courses-listing-detail {
+    width: 100%;
+    padding: 9px 18px;
+    overflow: hidden;
+    background-color: rgb(221, 227, 236);
+    border-radius: 15px;
+}

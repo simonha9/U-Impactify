@@ -1,0 +1,105 @@
+.assign-card {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.assign-card-body {
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    border: ridge;
+}
+
+.assign-card-body:hover {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px rgb(211, 211, 211);
+}
+
+.assign-title {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assign-due-date {
+    display: inline;
+    font-weight: 500;
+}
+
+.new-assign-card {
+    opacity: 0.5;
+    height: 3em;
+    width: 80%;
+    border-radius: 10px;
+    border: dashed;
+}
+
+.new-assign-card:hover {
+    background-color: rgb(235, 235, 235);
+    opacity: 0.8;
+}
+
+.assign-plus-button {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#new-assign-name {
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+#new-assign-due {
+    margin-bottom: 2rem;
+}
+
+#new-assign-upload-container {
+    width: 75%;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.new-assign-button {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem
+}
+
+.download-link-icon {
+    height: 3em;
+    width: 3em;
+}
+
+.learner-submission-container {
+    margin-top: 10vh;
+    width: 75%;
+}
+
+.consultant-submission-container {
+    margin-top: 10vh;
+}
+
+.assign-submit-button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.sub-entry {
+    background-color: rgb(225, 212, 235);
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 7em;
+    border: 1px solid;
+}
+
+.sub-entry-fname {
+    text-align: center;
+    margin: 0;
+}
+
+.sub-entry-link-icon {
+    height: 7em;
+    width: 7em;    
+}
+.sub-entry-uname {
+    text-align: center;
+    margin: 0;
+}

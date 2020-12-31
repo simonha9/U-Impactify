@@ -1,0 +1,9 @@
+.course-card-img {
+    border-bottom: groove;
+    border-width: 2px;
+}
+
+.course-card-title {
+    border-top: groove;
+    border-width: 2px;
+}

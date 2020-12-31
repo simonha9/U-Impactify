@@ -1,0 +1,21 @@
+.sidebar {
+  max-width: min-content;
+  min-height: 100%;
+  background-color: white;
+  box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.15);
+  .nav-item {
+    .nav-link {
+      color: grey;
+    }
+    :hover {
+      background-color: #72a1ed;
+      border: ;
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+
+#sidebar-logo {
+  max-height: 150px;
+  max-width: 150px;
+}

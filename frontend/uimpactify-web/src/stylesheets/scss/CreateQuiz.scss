@@ -1,0 +1,19 @@
+#quiz-creator {
+  min-height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-width: fit-content;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: flex-start;
+  #quiz-type-dropdown {
+    position: fixed;
+    left: 75%;
+  }
+  #quiz-submit {
+    position: fixed;
+    top: 90%;
+    left: 75%;
+  }
+}

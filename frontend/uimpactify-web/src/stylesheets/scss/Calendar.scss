@@ -1,0 +1,33 @@
+.calender-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+
+  .calender-form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    #event-start-date-input,
+    #event-start-time-input,
+    #event-end-date-input,
+    #event-end-time-input {
+      width: 120px;
+    }
+  }
+  .event-details-display {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: groove;
+  }
+  .rbc-calendar {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: groove;
+  }
+}

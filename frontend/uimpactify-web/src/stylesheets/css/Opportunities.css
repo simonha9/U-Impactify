@@ -1,0 +1,115 @@
+.opportunity-page-container {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.opportunity-page-header {
+    color: rgb(172, 119, 206);
+    width: 80vw;
+}
+
+.opportunity-page-subheader {
+    color: rgb(79, 79, 79);
+    display: inline;
+    margin-right: 10px;
+}
+
+.opportunityList {
+    margin-bottom: 40px;
+}
+
+.opportunity-newButton {
+    margin-bottom: 10px;
+}
+
+.opportunity-formGroup {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.opportunity-formButtons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left {
+    border-right: groove;
+}
+
+.right {
+    border-left: groove;
+}
+
+.opportunity-application {
+    width: 80%;
+}
+
+.application-button {
+    background-color: rgb(183, 195, 218);
+    color: rgb(68,68,68);
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-bottom: solid;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.expanded, .application-button:hover {
+    background-color: rgb(183, 195, 243);
+}
+
+.application-detail {
+    padding: 9px 18px;
+    overflow: hidden;
+    background-color: rgb(221, 227, 236);
+    border-radius: 15px;
+}
+
+.opportunity-grid {
+    background-color: rgb(255, 255, 255);
+    border: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-auto-columns: minmax(50%, auto) auto;
+    grid-auto-rows: minmax(20vh, auto) minmax(60vh, auto); 
+    grid-template-areas: 
+        "pTitle pType"
+        "pDescription pDescription"
+}
+
+.grid-pTitle {
+    grid-area: pTitle;
+    padding: 10px 10px 10px 10px;
+    border-right: groove;
+    border-bottom: groove;
+}
+
+.grid-pType {
+    grid-area: pType;
+    padding: 10px 10px 10px 10px;
+    border-left: groove;
+    border-bottom: groove;
+}
+
+.grid-pDescription {
+    grid-area: pDescription;
+    padding: 10px 10px 10px 10px;
+    border-top: groove;
+}
+
+.pTitle-content, .pType-content {
+    font-size: 150%;
+    font-style: italic;
+}
+
+.pDescription-content {
+    font-size: 120%;
+    font-style: oblique;
+    white-space: pre-wrap;
+}

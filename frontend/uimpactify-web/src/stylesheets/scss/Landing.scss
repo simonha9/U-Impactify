@@ -1,0 +1,29 @@
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .about-text {
+        max-width: 50%;
+    }
+    .about-image {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        box-shadow: 5px 5px rgb(211, 211, 211);
+    }
+    .get-started {
+        background-color: #7e43ab;
+        max-width: fit-content;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px rgb(211, 211, 211);
+        }
+        &:active {
+            background-color: rebeccapurple;
+        }
+    }
+}

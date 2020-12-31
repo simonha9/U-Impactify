@@ -1,0 +1,53 @@
+.calender-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calender-group .calender-form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calender-group .calender-form-group #event-start-date-input,
+.calender-group .calender-form-group #event-start-time-input,
+.calender-group .calender-form-group #event-end-date-input,
+.calender-group .calender-form-group #event-end-time-input {
+  width: 120px;
+}
+
+.calender-group .event-details-display {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: groove;
+}
+
+.calender-group .rbc-calendar {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: groove;
+}
+/*# sourceMappingURL=Calendar.css.map */

@@ -1,0 +1,92 @@
+.quiz-component {
+  width: 50vw;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  border-style: dashed;
+  padding: 10px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.quiz-component #question-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.quiz-component #question-header .question-component-index-and-question {
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quiz-component #question-header .question-component-index-and-question .question-editable {
+  min-width: 400px;
+  height: 80px;
+  min-height: 40px;
+  margin-left: 10px;
+}
+
+.quiz-component #question-header .remove-question {
+  cursor: pointer;
+}
+
+.quiz-component .question-component-add {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.quiz-component .question-component-choice {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.quiz-component .question-component-choice .radio-and-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.quiz-component .question-component-choice .radio-and-choice .choices-editable {
+  min-width: 500px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.quiz-component .question-component-choice .remove-choice {
+  cursor: pointer;
+}
+/*# sourceMappingURL=GenericQuestion.css.map */
