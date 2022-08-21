@@ -1,4 +1,6 @@
-# project-coding-lads
+# U-Impactify
+
+An online e-learning platform targeted at social work and marginalized groups for both students and teachers.  Teachers can teach courses in the way of: giving lectures (virtual + slides), creating assignments and tests.  Teachers can opt to be part of an organization, or work more as a freelancer.  Students can be from any background, part of an organization or by themselves and take said courses.
 
 ### When building the project, create a new run configuration by:
 1. Click dropdown arrow beside green play button
