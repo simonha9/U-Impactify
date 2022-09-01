@@ -3,19 +3,19 @@
 An online e-learning platform targeted at social work and marginalized groups for both students and teachers.  Teachers can teach courses in the way of: giving lectures (virtual + slides), creating assignments and tests.  Teachers can opt to be part of an organization, or work more as a freelancer.  Students can be from any background, part of an organization or by themselves and take said courses.
 
 ### Screenshots
-![landing_page](/frontend/uimpactify-web/public/landing_page.png)
+![landing_page](/frontend/uimpactify-web/public/landing_page.png?raw=true)
 *Landing Page*
 
-![sign_up_form](/frontend/uimpactify-web/public/sign_up_form.png)
+![sign_up_form](/frontend/uimpactify-web/public/sign_up_form.png?raw=true)
 *Sign Up Form*
 
-![dashboard](/frontend/uimpactify-web/public/dashboard.png)
+![dashboard](/frontend/uimpactify-web/public/dashboard.png?raw=true)
 *Dashboard*
 
-![course](/frontend/uimpactify-web/public/course.png)
+![course](/frontend/uimpactify-web/public/course.png?raw=true)
 *New Course*
 
-![course_dashboard](/frontend/uimpactify-web/public/course_dashboard.png)
+![course_dashboard](/frontend/uimpactify-web/public/course_dashboard.png?raw=true)
 *Lectures, Assignments, Quizzes*
 
 
